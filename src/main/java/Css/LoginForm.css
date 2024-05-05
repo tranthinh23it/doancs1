@@ -1,0 +1,78 @@
+
+
+
+#Title1{
+    -fx-font-weight: bold;
+    /*-fx-text-fill: ;*/
+    -fx-font-size: 30;
+}
+#subTitle1{
+    -fx-font-weight: bold;
+    -fx-text-fill: #808080;
+    -fx-font-size: 15px;
+}
+#butLogin{
+    -fx-background-radius: 5;
+    -fx-border-radius: blue;
+    -fx-background-color: #3982F7;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+
+}
+#showpass{
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #999999;
+    /*-fx-border-color: #000000;*/
+}
+#Titlte2{
+    -fx-font-weight: bold ;
+    -fx-font-style: italic;
+    /*-fx-font-family: ;*/
+    -fx-font-size: 20;
+
+}
+#Title3{
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+    -fx-underline: true;
+}
+#continues1{
+    -fx-padding: 7;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #3982F7;
+    -fx-background-radius: 3;
+    -fx-font-weight: bold;
+}
+#continues2{
+    -fx-padding: 7;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #3982F7;
+    -fx-background-radius: 3;
+    -fx-font-weight: bold;
+}
+.split-pane{
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-border-color: none;
+}
+.split-pane-divider {
+    -fx-background-color: transparent;
+}
+#splitBack{
+    -fx-background-color: #FFFFFF;
+}
+#paneSignUp{
+    -fx-border-color: black;
+}
+#gitSignUp{
+    -fx-border-color: black;
+}
+#recently{
+    -fx-border-color: black;
+}
+#createAccText{
+    -fx-font-weight: bold;
+    -fx-text-fill:#3982F7 ;
+}

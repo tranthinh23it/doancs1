@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="923.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.doancoso1.LoginController">
+   <center>
+      <SplitPane fx:id="splitBack" dividerPositions="0.4829485834207764" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Pane fx:id="recently" layoutX="25.0" layoutY="22.0" prefHeight="388.0" prefWidth="320.0" stylesheets="@../../../../java/Css/LoginForm.css">
+                     <children>
+                        <Label fx:id="Title3" layoutX="20.0" layoutY="49.0" prefHeight="38.0" prefWidth="203.0" stylesheets="@../../../../java/Css/LoginForm.css" text="Reccently Login " />
+                        <ImageView fx:id="img1" fitHeight="77.0" fitWidth="83.0" layoutX="28.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fx:id="img2" fitHeight="83.0" fitWidth="86.0" layoutX="27.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button fx:id="continues1" layoutX="121.0" layoutY="110.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="189.0" stylesheets="@../../../../java/Css/LoginForm.css" text="Continues as hthinh_tran307" />
+                        <Button fx:id="continues2" layoutX="122.0" layoutY="204.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="188.0" stylesheets="@../../../../java/Css/LoginForm.css" text="Continues as hair21_@" />
+                        <Label fx:id="AnotherText" layoutX="201.0" layoutY="339.0" prefHeight="17.0" prefWidth="112.0" text="Another accounts" />
+                        <FontAwesomeIconView glyphName="ARROW_RIGHT" layoutX="300.0" layoutY="352.0" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="437.0">
+               <children>
+                  <Pane fx:id="gitSignUp" layoutX="9.0" layoutY="19.0" prefHeight="390.0" prefWidth="378.0" stylesheets="@../../../../java/Css/LoginForm.css">
+                     <children>
+                        <Label fx:id="Titlte2" layoutX="116.0" layoutY="25.0" prefHeight="30.0" prefWidth="174.0" stylesheets="@../../../../java/Css/LoginForm.css" text="GIT - MESSENGER" />
+                        <TextField fx:id="accountfield" layoutX="39.0" layoutY="107.0" prefHeight="42.0" prefWidth="303.0" stylesheets="@../../../../java/Css/LoginForm.css" />
+                        <PasswordField fx:id="passfield" layoutX="39.0" layoutY="171.0" prefHeight="43.0" prefWidth="247.0" stylesheets="@../../../../java/Css/LoginForm.css" />
+                        <Label fx:id="showpass" layoutX="286.0" layoutY="172.0" prefHeight="42.0" prefWidth="59.0" stylesheets="@../../../../java/Css/LoginForm.css" text="Show" />
+                        <Label layoutX="38.0" layoutY="90.0" prefHeight="17.0" prefWidth="245.0" stylesheets="@../../../../java/Css/LoginForm.css" text="Phone number, email" />
+                        <Label layoutX="39.0" layoutY="155.0" prefHeight="17.0" prefWidth="122.0" stylesheets="@../../../../java/Css/LoginForm.css" text="Password" />
+                        <Separator layoutX="26.0" layoutY="298.0" prefHeight="5.0" prefWidth="134.0" />
+                        <Separator layoutX="223.0" layoutY="300.0" prefHeight="4.0" prefWidth="127.0" />
+                        <Label layoutX="180.0" layoutY="288.0" prefHeight="25.0" prefWidth="23.0" text="OR" />
+                        <Button fx:id="butLogin" layoutX="40.0" layoutY="232.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="305.0" stylesheets="@../../../../java/Css/LoginForm.css" text="LOG IN" />
+                        <Pane fx:id="paneSignUp" layoutX="17.0" layoutY="315.0" prefHeight="63.0" prefWidth="346.0" stylesheets="@../../../../java/Css/LoginForm.css">
+                           <children>
+                              <Label fx:id="SuggText" layoutX="76.0" layoutY="23.0" prefHeight="17.0" prefWidth="138.0" stylesheets="@../../../../java/Css/LoginForm.css" text="Don't have  an account?" />
+                              <Label fx:id="createAccText" layoutX="214.0" layoutY="23.0" prefHeight="17.0" prefWidth="101.0" stylesheets="@../../../../java/Css/LoginForm.css" text="Sign Up" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+   <top>
+      <Pane fx:id="topBack" prefHeight="174.0" prefWidth="923.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="Title1" layoutX="281.0" layoutY="56.0" prefHeight="17.0" prefWidth="334.0" stylesheets="@../../../../java/Css/LoginForm.css" text="Welcome to GIT - Chat" />
+            <Label fx:id="subTitle1" layoutX="317.0" layoutY="101.0" prefHeight="21.0" prefWidth="324.0" stylesheets="@../../../../java/Css/LoginForm.css" text="The simple way to text form your desktop" />
+            <FontAwesomeIconView fx:id="iconTitle" glyphName="COMMENTS" layoutX="628.0" layoutY="113.0" size="1.6cm" />
+         </children>
+      </Pane>
+   </top>
+   <left>
+      <Pane fx:id="leftBack" prefHeight="426.0" prefWidth="82.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="426.0" prefWidth="65.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

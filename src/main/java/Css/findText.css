@@ -1,0 +1,69 @@
+#findArea {
+    -fx-background-color: #303030;
+    -fx-text-fill: white;
+}
+#chatArea{
+    -fx-background-radius: 30;
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+    -fx-background-color: #303030;
+    -fx-font-family: SansSerif;
+}
+#rightPart{
+    -fx-background-color: #000000;
+}
+#fourinone{
+    -fx-background-color: #000000;
+
+}
+#chattTitle{
+    -fx-font-size: 25px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+#LeftPane{
+    -fx-background-color: #6A6A6A;
+}
+#name{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+#profile{
+    -fx-background-color: #F5F5F5;
+}
+.split-pane{
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+.split-pane-divider {
+    -fx-background-color: transparent;
+}
+#butPlus{
+    -fx-background-radius: 30;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #blue;
+    -fx-border-radius: 30;
+}
+#plus{
+    -fx-background-color: blue;
+}
+#mess{
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+#mess1{
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+#listView{
+    -fx-background-color: #000000;
+}
+#AreaChats{
+    -fx-background-color: #000000;
+
+}
+.text-area{
+    -fx-control-inner-background: #000000;
+    -fx-text-fill: #ffffff;
+}

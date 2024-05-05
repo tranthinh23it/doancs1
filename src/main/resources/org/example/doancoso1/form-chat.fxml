@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.emojione.EmojiOneView?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="923.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.doancoso1.FormChat">
+   <left>
+      <Pane fx:id="LeftPane" prefHeight="602.0" prefWidth="85.0" stylesheets="@../../../../java/Css/findText.css" BorderPane.alignment="CENTER">
+         <children>
+            <SplitPane dividerPositions="0.8772046589018303" layoutX="-3.0" layoutY="-3.0" orientation="VERTICAL" prefHeight="601.0" prefWidth="95.0">
+              <items>
+                <AnchorPane fx:id="topLeft" minHeight="0.0" minWidth="0.0" prefHeight="519.0" prefWidth="162.0" stylesheets="@../../../../java/Css/findText.css">
+                     <children>
+                        <FontAwesomeIconView fx:id="message1" fill="#aaaaaa" glyphName="COMMENT" layoutX="35.0" layoutY="97.0" size="0.6cm" />
+                        <FontAwesomeIconView fx:id="iconTitle" fill="WHITE" glyphName="COMMENTS" layoutX="14.0" layoutY="37.0" size="0.8cm">
+                           <selectionFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </selectionFill>
+                        </FontAwesomeIconView>
+                        <FontAwesomeIconView fx:id="message3" fill="#aaaaaa" glyphName="COMMENTING" layoutX="35.0" layoutY="187.0" size="0.6CM" text="" />
+                        <FontAwesomeIconView fx:id="message4" fill="#aaaaaa" glyphName="ARCHIVE" layoutX="35.0" layoutY="232.0" size="0.6CM" />
+                        <FontAwesomeIconView fx:id="message2" fill="#aaaaaa" glyphName="MARKETING" layoutX="37.0" layoutY="144.0" size="0.6CM" text="" />
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="488.0" prefWidth="92.0" stylesheets="@../../../../java/Css/findText.css">
+                     <children>
+                        <FontAwesomeIconView fill="WHITE" glyphName="LIST" layoutX="35.0" layoutY="43.0" size="0.7cm" />
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <SplitPane fx:id="rightPart" dividerPositions="0.36387559808612435" prefHeight="160.0" prefWidth="200.0" stylesheets="@../../../../java/Css/findText.css" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="290.0">
+               <children>
+                  <SplitPane dividerPositions="0.21671105193075896" layoutX="-1.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="602.0" prefWidth="303.0">
+                    <items>
+                      <AnchorPane fx:id="fourinone1" minHeight="0.0" minWidth="0.0" prefHeight="133.0" prefWidth="302.0">
+                           <children>
+                              <TextField fx:id="findArea" layoutX="16.0" layoutY="50.0" prefHeight="43.0" prefWidth="272.0" stylesheets="@../../../../java/Css/findText.css" />
+                              <Label fx:id="chattTitle" layoutX="16.0" layoutY="2.0" prefHeight="46.0" prefWidth="209.0" text="hthinh.tr_307" />
+                              <FontAwesomeIconView fill="#aaaaaa" glyphName="SEARCH" layoutX="249.0" layoutY="78.0" size="0.5CM" />
+                              <FontAwesomeIconView fx:id="message" fill="WHITE" glyphName="EDIT" layoutX="258.0" layoutY="33.0" size="0.6CM" />
+                              <Label fx:id="mess" layoutX="23.0" layoutY="103.0" prefHeight="18.0" prefWidth="67.0" stylesheets="@../../../../java/Css/findText.css" text="Message" />
+                              <Label fx:id="mess1" layoutX="237.0" layoutY="104.0" stylesheets="@../../../../java/Css/findText.css" text="Requested" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="457.0" prefWidth="310.0">
+                           <children>
+                              <ListView fx:id="listView" layoutX="14.0" layoutY="-1.0" prefHeight="472.0" prefWidth="302.0" stylesheets="@../../../../java/Css/findText.css" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <SplitPane dividerPositions="0.12317397078353255" layoutX="-4.0" orientation="VERTICAL" prefHeight="602.0" prefWidth="554.0">
+                    <items>
+                      <AnchorPane fx:id="fourinone" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Label fx:id="name" layoutX="100.0" layoutY="23.0" prefHeight="32.0" prefWidth="115.0" stylesheets="@../../../../java/Css/findText.css" text="Truong Hai" />
+                              <FontAwesomeIconView fill="WHITE" glyphName="ELLIPSIS_H" layoutX="488.0" layoutY="45.0" size="0.5cm" />
+                           </children></AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <SplitPane dividerPositions="0.8463768115942029" layoutX="2.0" layoutY="-9.0" orientation="VERTICAL" prefHeight="552.0" prefWidth="526.0">
+                                <items>
+                                  <AnchorPane fx:id="fourinone3" minHeight="0.0" minWidth="0.0" prefHeight="470.0" prefWidth="525.0">
+                                       <children>
+                                          <TextArea fx:id="AreaChats" layoutX="-1.0" layoutY="8.0" prefHeight="479.0" prefWidth="526.0" stylesheets="@../../../../java/Css/findText.css" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane fx:id="fourinone2" minHeight="0.0" minWidth="0.0" prefHeight="78.0" prefWidth="525.0">
+                                       <children>
+                                          <TextField fx:id="chatArea" layoutX="52.0" layoutY="12.0" prefHeight="39.0" prefWidth="425.0" stylesheets="@../../../../java/Css/findText.css" />
+                                          <Button fx:id="butPlus" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" stylesheets="@../../../../java/Css/findText.css">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="plus" fill="#3399ff" glyphName="PLUS" size="0.4CM" />
+                                             </graphic>
+                                          </Button>
+                                          <FontAwesomeIconView fx:id="iconmo2" fill="#ff4b8c" glyphName="HEART" layoutX="492.0" layoutY="38.0" size="0.5CM" />
+                                          <FontAwesomeIconView fx:id="iconmo" fill="#3399ff" glyphName="FILE" layoutX="409.0" layoutY="36.0" size="0.4CM" />
+                                          <EmojiOneView fx:id="iconmo1" fill="#3399ff" layoutX="440.0" layoutY="37.0" size="0.45CM" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+</BorderPane>
